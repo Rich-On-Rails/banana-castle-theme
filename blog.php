@@ -1,5 +1,17 @@
-<?php /* Template Name: Latest News */ ?>
-<?php get_header(); ?>
+<?php 
+    /**
+     * Template Name: Latest News
+     * 
+     */
+
+    get_header(); 
+?>
+
+<div class="row">
+    <div class="col-12 py-4 text-center text-white" style="background-color:#c49720">
+        <h1>Blog</h1>
+    </div>    
+</div>
 
 <div class="album py-5 bg-light">
     <div class="container">

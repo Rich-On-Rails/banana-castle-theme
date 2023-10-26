@@ -20,7 +20,7 @@
                     <a class="nav-link" href="<?php echo get_bloginfo( 'wpurl' );?>">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#projects">About</a>
+                    <a class="nav-link" href="about">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="blog">Blog</a>
@@ -29,7 +29,7 @@
                     <a class="nav-link" href="#projects">Downloads</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#projects">Contact</a>
+                    <a class="nav-link" href="contact">Contact</a>
                 </li>
             </ul>
         </div>

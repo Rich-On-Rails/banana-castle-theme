@@ -7,12 +7,12 @@
             <h1>Banana Castle</h1>
             <p>5 inch Gauge Planet</p>
             <div class="social-icons">
-                <a href="#"><i class="fa-solid fa-envelope"></i></a>
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-tiktok"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-                <a href="#"><i class="fab fa-mastodon"></i></a>
+                <a href="mailto:hello@bananacastle.co.uk"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://facebook.com/bananacastle"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/banana_castle_loco/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@bananacastle"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.youtube.com/@banana_castle"><i class="fab fa-youtube"></i></a>
+                <a href="https://mastodon.social/@bananacastle"><i class="fab fa-mastodon"></i></a>
             </div>
             <div class="scroll-arrow">
                 <div class="arrow"></div>
@@ -27,7 +27,8 @@
                 <?php
                 
                 $args = array (
-                    'post_status' => 'published',
+                    'post_status' => 'publish',
+                    'post_type' => 'post',
                     'order'          => 'desc',
                     'orderby'        => 'publish_date',
                     'posts_per_page' => 6,
@@ -65,7 +66,7 @@
     $photoArgs = array (
         'category_name' => 'HomeGram',
         'post_type' => 'attachment',
-        'post_status' => 'published',
+        'post_status' => 'publish',
         'numberposts' => 9,
     );
 

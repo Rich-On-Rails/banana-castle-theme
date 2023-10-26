@@ -1,12 +1,13 @@
 <?php
+    /**
+     * The 404 page template
+     *
+     *
+     */ 
 
-/**
- * The 404 page template
- *
- *
- */ ?>
-
-<?php get_header(); ?>
+    get_header(); 
+ 
+ ?>
 
 <div class="container mt-5">
     <div class="row">
